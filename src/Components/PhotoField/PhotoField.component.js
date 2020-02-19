@@ -25,7 +25,7 @@ const PhotoField = () => {
   }
 
   if (photoList === "error") {
-    return <h1 className="u-center ">An error occured</h1>;
+    return <h1 className="u-center ">No data found</h1>;
   }
 
   if (photoList === "Loading") {
