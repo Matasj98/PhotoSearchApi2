@@ -1,0 +1,28 @@
+.SearchBar {
+  height: 35px;
+  margin: 30px 0px;
+  text-align: center;
+
+  input,
+  button {
+    height: 100%;
+    margin: 0 10px;
+    border-radius: 30px;
+    border: solid 1px black;
+    background-color: white;
+  }
+  button {
+    width: 100px;
+    cursor: pointer;
+  }
+  input {
+    padding-left: 10px;
+    width: 50%;
+  }
+
+  input:hover,
+  button:hover {
+    transition: 0.3s all;
+    background-color: #dbdbdb;
+  }
+}

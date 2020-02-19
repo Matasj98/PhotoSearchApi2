@@ -1,0 +1,33 @@
+.SavedQueries {
+  width: 30%;
+  text-align: center;
+
+  .SavedQueriesTerms {
+    margin: 15px auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+
+    .term {
+      min-width: 40%;
+      border-radius: 30px;
+    }
+
+    .delete {
+      color: red;
+    }
+
+    .term,
+    .delete {
+      font-family: "Lacquer", sans-serif;
+      margin: 0;
+      padding: 10px;
+      cursor: pointer;
+    }
+
+    .term:hover {
+      transition: 0.3s all;
+      background-color: white;
+    }
+  }
+}
