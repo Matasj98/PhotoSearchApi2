@@ -17,3 +17,44 @@ body {
     border-left: solid 1px black;
   }
 }
+
+@media only screen and (max-width: 680px) {
+  .App {
+    .content {
+      display: block;
+      min-height: 5%;
+    }
+    .lineBetween {
+      display: none;
+    }
+  }
+  .SavedQueries,
+  .u-center,
+  .PhotoField {
+    width: 100%;
+  }
+
+  .u-center {
+    min-height: 40%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .SearchBar {
+    button {
+      display: block;
+      min-width: 50%;
+      margin: 10px auto;
+    }
+  }
+
+  .SavedQueries h1,
+  .u-center {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .Logo h1 {
+    font-size: 30px;
+  }
+}
