@@ -22,7 +22,7 @@ body {
   .App {
     .content {
       display: block;
-      min-height: 5%;
+      min-height: 15%;
     }
     .lineBetween {
       display: none;
@@ -41,10 +41,15 @@ body {
 
 @media only screen and (max-width: 600px) {
   .SearchBar {
+    height: 80px;
     button {
       display: block;
       min-width: 50%;
       margin: 10px auto;
+    }
+    button,
+    input {
+      height: 25px;
     }
   }
 
